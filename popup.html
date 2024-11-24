@@ -2,42 +2,73 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
   <style>
     body {
       width: 300px;
       padding: 16px;
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background-color: #f8f9fa;
     }
+
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
     select {
       width: 100%;
       padding: 8px;
       margin-bottom: 16px;
       border-radius: 4px;
-      border: 1px solid #ccc;
+      border: 1px solid #dee2e6;
+      background-color: white;
+      font-size: 14px;
     }
+
     .preview {
       width: 100%;
       height: 60px;
       margin-top: 8px;
       border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
     }
+
     label {
       display: block;
       margin-bottom: 8px;
-      font-weight: bold;
+      font-weight: 500;
+      color: #212529;
+    }
+
+    select:focus {
+      outline: none;
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    }
+
+    .team-select {
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
-  <label for="teamSelect">Select Your Team:</label>
-  <select id="teamSelect">
-    <option value="">Choose a team...</option>
-    <option value="Arsenal">Arsenal</option>
-    <option value="Liverpool">Liverpool</option>
-    <option value="ManCity">Manchester City</option>
-    <option value="Spurs">Tottenham Hostspur</option>
-  </select>
-  <div id="preview" class="preview"></div>
+  <div class="container">
+    <div class="team-select">
+      <label for="teamSelect">Select Your Team:</label>
+      <select id="teamSelect" class="pure-input-1">
+        <option value="">Choose a team...</option>
+        <option value="Arsenal">Arsenal</option>
+        <option value="Liverpool">Liverpool</option>
+        <option value="ManCity">Manchester City</option>
+        <option value="Spurs">Tottenham Hotspur</option>
+      </select>
+    </div>
+    <div id="preview" class="preview"></div>
+  </div>
   <script src="popup.js"></script>
 </body>
 </html>

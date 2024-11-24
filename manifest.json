@@ -1,10 +1,10 @@
 {
-    "manifest_version": 2,
-    "name": "Football Team Themes",
-    "version": "1.0",
-    "description": "Change your browser theme to match your favorite football team",
-    "permissions": ["theme"],
-    "browser_action": {
-      "default_popup": "popup.html"
-    }
+  "manifest_version": 2,
+  "name": "Football Team Themes",
+  "version": "1.0",
+  "description": "Change your browser theme to match your favorite football team",
+  "permissions": ["theme"],
+  "browser_action": {
+    "default_popup": "popup.html"
   }
+}

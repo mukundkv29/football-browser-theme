@@ -92,17 +92,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const teamSelect = document.getElementById('teamSelect');
     const preview = document.getElementById('preview');
 
-    // Apply theme when team is selected
     teamSelect.addEventListener('change', (e) => {
         const selectedTeam = e.target.value;
         if (selectedTeam && themes[selectedTeam]) {
-            // Update preview
             preview.style.backgroundColor = themes[selectedTeam].colors.frame;
             
-            // Apply theme to browser
             browser.theme.update(themes[selectedTeam]);
         } else {
-            // Reset to default theme
             browser.theme.reset();
             preview.style.backgroundColor = '#ffffff';
         }
