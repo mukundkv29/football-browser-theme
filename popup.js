@@ -86,6 +86,24 @@ const themes = {
 			background_tab_incognito_inactive: [44, 63, 133],
 			toolbar_button_icon: [255, 255, 255]
 		},
+    },
+    Brighton: {
+        colors: {
+            frame: [255, 205, 0],
+            frame_inactive: [128, 154, 189],
+            frame_incognito: [255, 205, 0],
+            frame_incognito_inactive: [128, 154, 189],
+            ntp_background: [255, 255, 255],
+            toolbar: [0, 87, 184],
+            tab_text: [255, 255, 255],
+            tab_background_text: [0, 87, 184],
+            tab_background_text_inactive: [255, 255, 255],
+            tab_background_text_incognito: [0, 87, 184],
+            tab_background_text_incognito_inactive: [255, 255, 255],
+            bookmark_text: [255, 205, 0],
+            toolbar_button_icon: [255, 205, 0],
+            ntp_text: [0, 87, 184]
+        }
     }
 };
 document.addEventListener('DOMContentLoaded', () => {
