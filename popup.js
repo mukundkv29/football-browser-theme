@@ -1,7 +1,7 @@
 const themes = {
     Liverpool: {
         colors: {
-            frame: [200, 16, 46],
+            frame: [0, 178, 169],
             frame_inactive: [200, 30, 50],
             frame_incognito: [200, 16, 46],
             frame_incognito_inactive: [200, 30, 50],
@@ -13,12 +13,13 @@ const themes = {
             tab_background_text_incognito: [236, 192, 85],
             tab_background_text_incognito_inactive: [246, 235, 97],
             bookmark_text: [194, 172, 118],
-            ntp_text: [165, 153, 233],
+            ntp_text: [246, 235, 97],
             background_tab: [199, 28, 28],
             background_tab_inactive: [199, 28, 28],
             background_tab_incognito: [199, 28, 28],
             background_tab_incognito_inactive: [199, 28, 28],
-            toolbar_button_icon: [0, 178, 169]
+            toolbar_button_icon: [246, 235, 97],
+            tab_line: [246, 235, 97]
         }
     },
     ManCity: {
@@ -40,7 +41,8 @@ const themes = {
             background_tab_inactive: [151, 193, 231],
             background_tab_incognito: [151, 193, 231],
             background_tab_incognito_inactive: [151, 193, 231],
-            toolbar_button_icon: [0, 24, 56]
+            toolbar_button_icon: [56, 53, 77],
+            tab_line: [56, 53, 77]
         }
     },
     Arsenal: {
@@ -62,7 +64,7 @@ const themes = {
 			background_tab_inactive:[156, 130, 74],
 			background_tab_incognito: [239, 1, 7],
 			background_tab_incognito_inactive: [156, 130, 74],
-			toolbar_button_icon: [0, 24, 56]
+			toolbar_button_icon: [6, 54, 114]
         }
     },
     Spurs: {
@@ -103,6 +105,74 @@ const themes = {
             bookmark_text: [255, 205, 0],
             toolbar_button_icon: [255, 205, 0],
             ntp_text: [0, 87, 184]
+        }
+    },
+    Chelsea: {
+        colors: {
+            frame: [106, 122, 181],
+			frame_inactive: [106, 122, 181],
+			frame_incognito: [3, 70, 148],
+			frame_incognito_inactive: [106, 122, 181],
+			ntp_background: [3, 70, 148],
+			toolbar: [3, 70, 148], 
+			tab_text: [255, 255, 255],
+			tab_background_text: [209, 211, 212],
+			tab_background_text_inactive: [209, 211, 212],
+			tab_background_text_incognito: [255, 255, 255],
+			tab_background_text_incognito_inactive: [209, 211, 212],
+			bookmark_text: [219, 161, 17],
+			ntp_text: [255, 255, 255],
+			background_tab: [3, 70, 148],
+			background_tab_inactive:[106, 122, 181],
+			background_tab_incognito: [3, 70, 148],
+			background_tab_incognito_inactive: [106, 122, 181],
+			toolbar_button_icon: [219, 161, 17],
+			tab_line: [255, 255, 255],
+			toolbar_bottom_separator: [255, 255, 255]
+        }
+    },
+    ManUtd: {
+        colors: {
+            frame: [218, 41, 28],
+			frame_inactive: [255, 255, 255],
+			frame_incognito: [218, 41, 28],
+			frame_incognito_inactive: [255, 255, 255],
+			ntp_background: [218, 41, 28],
+			toolbar: [251, 225, 34], 
+			tab_text: [0, 0, 0],
+			tab_background_text: [0, 0, 0],
+			tab_background_text_inactive: [0, 0, 0],
+			tab_background_text_incognito: [0, 0, 0],
+			tab_background_text_incognito_inactive: [0, 0, 0],
+			bookmark_text: [0, 0, 0],
+			ntp_text: [255, 255, 255],
+			background_tab: [255, 255, 255],
+			background_tab_inactive:[255, 240, 128],
+			background_tab_incognito: [255, 255, 255],
+			background_tab_incognito_inactive: [255, 240, 128],
+			toolbar_button_icon: [0, 0, 0]
+        }
+    },
+    Newcastle: {
+        colors: {
+            frame: [187, 188, 188],
+			frame_inactive: [187, 188, 188],
+			frame_incognito: [187, 188, 188],
+			frame_incognito_inactive: [187, 188, 188],
+			ntp_background: [255, 255, 255],
+			toolbar: [255, 255, 255], 
+			tab_text: [0, 0, 0],
+			tab_background_text: [255, 255, 255],
+			tab_background_text_inactive: [255, 255, 255],
+			tab_background_text_incognito: [0, 0, 0],
+			tab_background_text_incognito_inactive: [187, 188, 188],
+			bookmark_text: [0, 0, 0],
+			ntp_text: [0, 0, 0],
+			background_tab: [0, 0, 0],
+			background_tab_inactive:[187, 188, 188],
+			background_tab_incognito: [187, 188, 188],
+			background_tab_incognito_inactive: [187, 188, 188],
+			toolbar_button_icon: [0, 0, 0]
         }
     }
 };
